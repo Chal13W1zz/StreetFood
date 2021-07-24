@@ -62,8 +62,8 @@ h1 {
 
 .pBox img {
     position: absolute;
-    bottom: -25px;
-    left: -70px;
+    top: 40%;
+    right: 65%;
     width: 60%;
 }
 
