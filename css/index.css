@@ -21,3 +21,24 @@ h1 {
     padding: 0;
     margin: 0;
 }
+
+.eatTogetherContainer {
+    display: flex;
+    text-align: center;
+    padding: 15%;
+    padding-top: 20px;
+}
+
+.eatTogetherContainer img {
+    width: 60%;
+}
+
+.pText:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.subT {
+    color: #EAAB1B;
+}
