@@ -97,3 +97,8 @@ h3 {
     background-color: #C9ECB5;
     text-align: center;
 }
+
+.both {
+    display: flex;
+    flex-direction: row;
+}
