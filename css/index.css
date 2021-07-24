@@ -27,6 +27,7 @@ h1 {
     text-align: center;
     padding: 15%;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .eatTogetherContainer img {
@@ -41,4 +42,53 @@ h1 {
 }
 .subT {
     color: #EAAB1B;
+}
+.exploreMenuContainer {
+    background-color: #EAF3E4;
+    text-align: center;
+    padding: 20px;
+}
+
+.pBox {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    border-bottom-right-radius: 40px;
+    margin: 20px;
+}
+
+.pBox img {
+    position: absolute;
+    bottom: -25px;
+    left: -70px;
+    width: 60%;
+}
+
+h3 {
+    text-align: left;
+    font-size: large;
+    padding: 10px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.burgerText {
+    display: flex;
+    flex-direction: row;
+}
+
+.pBox p {
+    font-size: medium;
+    text-align: center;
+    padding: 15%;
+    padding-top: 0;
+    padding-left: 30%;
+    margin-top: 0;
+    
+}
+.lime {
+    color: #6CB840;
 }
