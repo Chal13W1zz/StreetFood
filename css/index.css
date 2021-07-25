@@ -105,6 +105,7 @@ h3 {
 }
 
 .hotDealsContainer {
+    position: relative;
     background-color: #C9ECB5;
     text-align: center;
 }
@@ -116,6 +117,7 @@ h3 {
 
 .lemonBurger {
     position: relative;
+    bottom: 160px;
     display: flex;
     flex-direction: row;
 }
