@@ -113,6 +113,7 @@ h3 {
 .both {
     display: flex;
     flex-direction: row;
+    padding-bottom: 0;
 }
 
 .lemonBurger {
@@ -122,14 +123,36 @@ h3 {
     flex-direction: row;
 }
 
+#lemonade {
+    height: 90%;
+}
+
 #likemeat {
     height: 50%;
     position: absolute;
-    top: 55%;
+    top: 50%;
     left: 20%;
     
 }
 #hot {
     margin-top: 0;
     padding: 20px;
+}
+
+#sCombo {
+    text-align: left;
+}
+
+#bnp , #fnd {
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: left;
+}
+.lemonBurgerText {
+    padding-top: 20px;
+}
+
+.lemonBurgerText:last-child {
+    padding-left: 270px;
+    padding-right: 270px;
 }
