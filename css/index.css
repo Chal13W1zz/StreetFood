@@ -89,6 +89,8 @@ h1 {
     color: #EAAB1B;
 }
 .exploreMenuContainer {
+    margin-left: 20px;
+    margin-right: 20px;
     background-color: #EAF3E4;
     text-align: center;
     padding: 20px;
@@ -150,6 +152,8 @@ h3 {
 }
 
 .hotDealsContainer {
+    margin-left: 20px;
+    margin-right: 20px;
     position: relative;
     background-color: #C9ECB5;
     text-align: center;
@@ -203,6 +207,8 @@ h3 {
 }
 
 .contactContainer {
+    margin-left: 20px;
+    margin-right: 20px;
     text-align: center;
     background-color: #FFF5DD;
     padding-bottom: 200px;
@@ -214,6 +220,7 @@ h3 {
 }
 
 .contactContainer p {
+
     padding-left: 36%;
     padding-right: 36%;
 }
@@ -238,6 +245,7 @@ h3 {
 } 
 
 footer {
+    margin-top: 30px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
