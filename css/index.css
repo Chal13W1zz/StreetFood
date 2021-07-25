@@ -156,3 +156,18 @@ h3 {
     padding-left: 270px;
     padding-right: 270px;
 }
+
+.contactContainer {
+    text-align: center;
+    background-color: #FFF5DD;
+}
+
+#cC {
+    padding: 20px;
+    margin-top: 0;
+}
+
+.contactContainer p {
+    padding-left: 36%;
+    padding-right: 36%;
+}
