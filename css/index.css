@@ -171,3 +171,22 @@ h3 {
     padding-left: 36%;
     padding-right: 36%;
 }
+
+#mail {
+    border: none;
+    border-color: white;
+    border-radius: 20px;
+    width: 30%;
+    height: 30px;
+}
+
+#send {
+    border: none ;
+    background-color: #6CB840;
+    border-radius: 20px;
+    margin: 20px;
+    color: white;
+    height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+} 
