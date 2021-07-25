@@ -160,6 +160,7 @@ h3 {
 .contactContainer {
     text-align: center;
     background-color: #FFF5DD;
+    padding-bottom: 200px;
 }
 
 #cC {
@@ -190,3 +191,21 @@ h3 {
     padding-left: 20px;
     padding-right: 20px;
 } 
+
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: #C9ECB5;
+}
+
+.dayntime {
+    border-right: dotted #A6C495;
+}
+
+#fbtn {
+    border: none;
+    color: white;
+    background-color: #6CB840;
+    justify-content: flex-end;
+}
