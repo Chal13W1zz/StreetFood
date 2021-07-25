@@ -5,7 +5,18 @@
 }   
 
 .headerContainer {
+
     background-color: #E5E5E5;
+}
+
+#eclipse {
+    position: relative;
+    bottom: 1000px;
+    left: 25%;
+    background-color: #B8E79C;
+    height: 1500px;
+    width: 100%;
+    border-radius: 80%;
 }
 
 #star {
