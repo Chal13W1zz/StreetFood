@@ -5,10 +5,12 @@
 }   
 
 .headerContainer {
-
+    position: relative;
+    height: 500px;
     background-color: #E5E5E5;
 }
 
+/*
 #eclipse {
     position: relative;
     bottom: 1000px;
@@ -17,8 +19,39 @@
     height: 1500px;
     width: 100%;
     border-radius: 80%;
+}*/
+
+#eclipse {
+    position: absolute;
+    top: 25%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    height: 600px;
+    width: 100%;
+    border-radius: 0 0 2000px 2000px;
+    background-color: #B8E79C;
+    border-image-slice: fill;
 }
 
+#scborder {
+    position: absolute;
+    top: 52%;
+    left: 74%;
+    transform: translate(-50%, -50%);
+    height: 250px;
+    width: 35%;
+    border-radius: 1000px 1000px 0 0;
+    border: dotted;
+    border-spacing: 100em;
+    border-bottom: none;
+}
+
+#cFood {
+    position: absolute;
+    top: 60%;
+    left: 65%;
+   
+}
 #star {
     display: flex;
     justify-content: center;
