@@ -8,9 +8,8 @@ body{
     font-family: 'Poppins', sans-serif;
 }   
 
-.headerContainer {
+header {
     position: relative;
-    height: 500px;
     background-color: #E5E5E5;
 }
 
@@ -48,6 +47,21 @@ h1 {
     margin: 0;
 }
 
+.hText {
+    text-align: left;
+    padding: 80px;
+    padding-top: 0;
+}
+
+#play {
+    margin-bottom: 0;
+}
+
+#boy {
+    padding-top: 5px;
+    margin-top: 0;
+    padding-right: 70%;
+}
 .eatTogetherContainer {
     display: flex;
     text-align: center;
